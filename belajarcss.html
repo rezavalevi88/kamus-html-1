@@ -1,0 +1,56 @@
+<!--Belajar CSS HTML Beserta Penjelasannya
+Inline - by using the style attribute inside HTML elements
+Internal - by using a <style> element in the <head> section
+External - by using a <link> element to link to an external CSS file
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <Style>
+        .internal1 {
+        color: blue;
+        }
+
+        .internal2 {
+            color: red;
+        }
+    </Style>
+
+    <link rel="stylesheet" href="belajarcsshtml.css">
+
+</head>
+<body>
+    
+    <h1 class="inline" style="color: blue;">Contoh Inline CSS</h1>
+    <p class="Inline" style="color: red;">Contoh Sama</p>
+
+    <h1 class="internal1">Contoh Internal CSS</h1>
+    <p class="internal2">Contoh Sama</p>
+
+    <!-- <link rel="stylesheet" href="belajarcsshtml.css"> -->
+    <h1 class="external1">Contoh External CSS</h1>
+    <p class="external2">Contoh Sama</p>
+    <p style="color: red; font-style: italic;"> link rel="stylesheet" href="belajarcsshtml.css" </p>
+
+    <div class="border1">
+        <h1>Border CSS</h1>
+        <p>Frame</p>
+    </div>
+
+    <div class="border2">
+        <h1>Border Margin CSS</h1>
+        <p>Frame Dengan Jarak Diluar</p>
+    </div>
+
+    <div class="border3">
+        <h1>Border Padding CSS</h1>
+        <p>Frame Dengan Jarak Didalam</p>
+    </div>
+
+</body>
+</html>
